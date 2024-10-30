@@ -1,0 +1,10 @@
+.payment_method_ksher img {
+  display: inline-block !important;
+  margin-right: 10px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+}
+
+.ksher-payment-logo {
+  margin-top: 20px;
+}

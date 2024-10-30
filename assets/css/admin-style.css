@@ -1,0 +1,144 @@
+#ksher-private-key-filename {
+  padding: 10px 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 1px;
+  line-height: 2;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#ksher-private-key-file {
+  display: none;
+}
+
+.ksher-preload {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffffb8;
+}
+
+.lds-facebook {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+}
+
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #007cba;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+#ksher-check-result {
+  display: block;
+  vertical-align: middle;
+}
+
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 0px;
+  box-sizing: border-box;
+  border: 10px solid #007cba;
+  border-color: #007cba transparent #007cba transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+
+.ksher-success {
+  width: max-content;
+  font-weight: 700;
+  color: #fff;
+  background: #70c754dd;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.ksher-fail {
+  width: max-content;
+  font-weight: 700;
+  color: #fff;
+  background: red;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.ksher-warning {
+  width: max-content;
+  font-weight: 700;
+  color: #fff;
+  background: orange;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.ksher-wrapper {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  min-height: 350px;
+}
+
+.ksher-check-btn {
+  padding: 15px 20px;
+  background: #3f8cff;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
